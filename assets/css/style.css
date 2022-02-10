@@ -1,0 +1,33 @@
+.header-hero {
+    height: 50vh;
+    background-image: url('https://www.fifteendesign.co.uk/wp-content/uploads/2016/03/Superhero-Main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__title {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20%;
+    width: fit-content;
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.title {
+    color: #fff;
+    padding: 0 1em;
+    margin-top: 1em;
+}
+
+@media (max-width: 400px) {
+    .header-hero {
+        width: 100%;
+    }
+    .header__title {
+        left: 0;
+    }
+}
