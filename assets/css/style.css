@@ -12,14 +12,15 @@
     width: fit-content;
     position: absolute;
     top: 12%;
-    left: 32%;
+    left: 30%;
     border-radius: 5px;
     border: 1px solid #fff;
 }
 
 .title {
-    color: #fff;
     padding: 0 1em;
+    font-size: 3em;
+    color: #fff;
     margin-top: 1em;
 }
 
@@ -28,6 +29,10 @@
         width: 100%;
     }
     .header__title {
-        left: 0;
+        width: 60%;
+        left: 20%;
+    }
+    .title {
+        font-size: 1.7em;
     }
 }
